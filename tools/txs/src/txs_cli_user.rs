@@ -13,11 +13,15 @@ use libra_types::{
     type_extensions::client_ext::ClientExt,
 };
 use libra_wallet::account_keys::get_keys_from_prompt;
+use std::str::FromStr;
+use anyhow::anyhow;
+
 
 #[derive(clap::Subcommand)]
 pub enum UserTxs {
     RotateKey(RotateKeyTx),
     SetSlow(SetSlowTx),
+    SetResource(SetResourceTx),
 }
 
 impl UserTxs {
@@ -38,6 +42,15 @@ impl UserTxs {
                     );
                 }
             },
+            UserTxs::SetResource(resource) => match resource.run(sender).await {
+                Ok(_) => println!("SUCCESS: account set to Resource Account"),
+                Err(e) => {
+                    println!(
+                        "ERROR: could set the account to Resource Account, message: {}",
+                        e
+                    );
+                }
+            }
         }
 
         Ok(())
@@ -53,6 +66,48 @@ impl SetSlowTx {
     pub async fn run(&self, sender: &mut Sender) -> anyhow::Result<()> {
         let payload = libra_stdlib::slow_wallet_user_set_slow();
         sender.sign_submit_wait(payload).await?;
+        Ok(())
+    }
+}
+
+#[derive(clap::Args)]
+pub struct SetResourceTx {
+    /// Seed for creating the resource account
+    #[clap(short, long)]
+    pub seed: String,
+
+    /// Optional authentication key
+    #[clap(short, long)]
+    pub optional_auth_key: Option<String>,
+}
+
+impl SetResourceTx {
+    pub async fn run(&self, sender: &mut Sender) -> anyhow::Result<()> {
+        // Convert the string inputs to vector<u8>
+        let seed_bytes = self.seed.as_bytes().to_vec();
+
+        let auth_key_bytes = if let Some(ref auth_key_str) = self.optional_auth_key {
+            // Convert the &String to &str
+            let auth_key_result = AuthenticationKey::from_str(auth_key_str);
+            
+            // Handle the Result and convert AuthenticationKey to Vec<u8>
+            match auth_key_result {
+                Ok(auth_key) => auth_key.to_vec(),
+                Err(e) => return Err(anyhow!("Failed to parse authentication key: {}", e)),
+            }
+        } else {
+            Vec::new() // Using an empty Vec<u8> as a placeholder;
+        };
+
+        // Create the TransactionPayload
+        let payload = libra_stdlib::resource_account_create_resource_account(
+            seed_bytes,
+            auth_key_bytes
+        );
+
+        // Submit the transaction
+        sender.sign_submit_wait(payload).await?;
+
         Ok(())
     }
 }
