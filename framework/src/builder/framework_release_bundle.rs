@@ -25,6 +25,8 @@ pub fn libra_author_script_file(
     for_address: AccountAddress,
     out: PathBuf,
     next_execution_hash: Vec<u8>,
+    enable_feature_flags: Vec<u64>, // Vector of feature flags to enable
+    disable_feature_flags: Vec<u64>, // Vector of feature flags to disable
     framework_git_hash: &str,
 ) -> anyhow::Result<()> {
     println!("autogenerating .move governance script file");
@@ -51,12 +53,32 @@ pub fn libra_author_script_file(
     emitln!(writer, "script {");
     writer.indent();
     emitln!(writer, "use std::vector;");
+    emitln!(writer, "use std::features::change_feature_flags;");
     emitln!(writer, "use diem_framework::diem_governance;");
     emitln!(writer, "use diem_framework::code;\n");
     emitln!(writer, "use diem_framework::version;\n");
 
     emitln!(writer, "fun main(proposal_id: u64){");
     writer.indent();
+    // FEATURE FLAGS
+    // Generate the code to handle enabling feature flags
+    emitln!(writer, "let enable_flags = vector::empty<u64>();");
+    for flag in enable_feature_flags {
+        emitln!(writer, "vector::push_back(&mut enable_flags, {});", flag);
+    }
+    
+    // Generate the code to handle disabling feature flags
+    emitln!(writer, "let disable_flags = vector::empty<u64>();");
+    for flag in disable_feature_flags {
+        emitln!(writer, "vector::push_back(&mut disable_flags, {});", flag);
+    }
+    
+    // Insert the call to change feature flags
+    emitln!(
+        writer,
+        "features::change_feature_flags(proposal_id, enable_flags, disable_flags);"
+    );
+    
     // This is the multi step proposal, needs a next hash even if it a single step and thus an empty vec.
     generate_next_execution_hash_blob(&writer, for_address, next_execution_hash);
 
