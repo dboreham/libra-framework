@@ -1,9 +1,9 @@
 // Upgrade proposal for package `MoveStdlib`
 
-// Framework commit hash: 85f102a0002684626b730c4168de28b54aca8236
-// Builder commit hash: db1137ba1f8e7301e325021f71f740063daaf76e
+// Framework commit hash: 40abb115e06e662246eb51265d7fd17358516b21
+// Builder commit hash: ef4fd9b4931a33dc7885965028ee4358e72b4839
 
-// Next step script hash: 3b3b30322a1bebff817c859db1c065eb10e9048793655d8b1bd9e8c8cd090455
+// Next step script hash: f62b1e00b263200443f24206ac3cdfb90ff29540d48d24d8290aef31b2e73f9b
 
 // source digest: CD5C8655F0340314CC68657DF89A58E257A0A88218E2B07A278A20B843E7A09E
 script {
@@ -17,7 +17,7 @@ script {
         let framework_signer = diem_governance::resolve_multi_step_proposal(
             proposal_id,
             @0000000000000000000000000000000000000000000000000000000000000001,
-            vector[59u8,59u8,48u8,50u8,42u8,27u8,235u8,255u8,129u8,124u8,133u8,157u8,177u8,192u8,101u8,235u8,16u8,233u8,4u8,135u8,147u8,101u8,93u8,139u8,27u8,217u8,232u8,200u8,205u8,9u8,4u8,85u8,],
+            vector[246u8,43u8,30u8,0u8,178u8,99u8,32u8,4u8,67u8,242u8,66u8,6u8,172u8,60u8,223u8,185u8,15u8,242u8,149u8,64u8,212u8,141u8,36u8,216u8,41u8,10u8,239u8,49u8,178u8,231u8,63u8,155u8,],
         );
         let code = vector::empty();
         let code_chunk0 =
@@ -644,6 +644,6 @@ script {
             112u8,116u8,105u8,111u8,110u8,0u8,0u8,0u8,6u8,115u8,116u8,114u8,105u8,110u8,103u8,0u8,0u8,0u8,0u8,0u8,
         ];
         code::publish_package_txn(&framework_signer, metadata_chunk1, code);
-        version::upgrade_set_git(&framework_signer, x"85f102a0002684626b730c4168de28b54aca8236")
+        version::upgrade_set_git(&framework_signer, x"40abb115e06e662246eb51265d7fd17358516b21")
     }
 }
