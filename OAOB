@@ -1,0 +1,1585 @@
+[33mcommit 2cc01ba0c0f7953502857d0bbbfe65cb4028218a[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-flag-scripts[m[33m)[m
+Author: 0xzoz <zeroexzoz@gmail.com>
+Date:   Wed Feb 28 00:11:15 2024 +0000
+
+    feature flag logic when authoring script
+
+[33mcommit a5f74e029d276e471c0d208b6d79cf69acb2ccd2[m[33m ([m[1;32mmain[m[33m)[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Feb 22 11:14:10 2024 -0800
+
+    [release] 6.9.6 (#186)
+
+[33mcommit 85f102a0002684626b730c4168de28b54aca8236[m[33m ([m[1;33mtag: 6.9.6[m[33m, [m[1;32mresource-signer-cap-removal[m[33m)[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Feb 17 19:28:45 2024 -0500
+
+    [Docs] udpate dev quick start (#181)
+
+[33mcommit 7bbbfc42aba909ca06f444900e6a1e75f349b28e[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Sat Feb 17 07:37:37 2024 -0800
+
+    [fix] revert commits causing 6.9.6 backwards compatibility errors (#180)
+
+[33mcommit d41e872782691d5d412edc03a8909004ceb6d442[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Fri Feb 16 04:05:03 2024 -0800
+
+    [feature] create platform features module for seperation of vendor and platform features (#177)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 13e9d812de574c1f04992af71879b7e745a4d899[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Fri Feb 16 02:47:51 2024 -0800
+
+    [fix] formal verification ci (#179)
+
+[33mcommit 270c8b8e3ad6e252eb54c190bfd60222efd1374e[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Feb 15 15:11:07 2024 -0800
+
+    [fix] clean staging environment (#178)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6789fc099fbdae4ad75c07f68cb56a7d30ac1b2a[m[33m ([m[1;31morigin/release-6.9.6[m[33m)[m
+Author: Kalvis Kuskis <44435644+kalvkusk@users.noreply.github.com>
+Date:   Wed Feb 14 06:12:56 2024 +0200
+
+    ci: fix paths for prover utils (#174)
+
+[33mcommit 671ab9faecd1263bd6272ea35b8a601467cbfe4c[m
+Author: Kalvis Kuskis <44435644+kalvkusk@users.noreply.github.com>
+Date:   Tue Feb 13 18:25:17 2024 +0200
+
+    ci: use self-hosted runners with more resources. (#173)
+
+[33mcommit c8164015938f6abd91f033909f413708afc45fad[m[33m ([m[1;31mupstream/6.9.6-old[m[33m, [m[1;31morigin/release-6.9.6-test[m[33m, [m[1;32m6.9.6-old[m[33m)[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Feb 12 17:33:15 2024 -0800
+
+    [fix] change community wallet default n-of-m to reduce threshold (#172)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 40035e41b2e2a3a9307ade948f7ed23837eed382[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Feb 12 13:15:54 2024 -0800
+
+    [feature] show indexed coin value  (#171)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 3a1cbe681a49c2d414939cd75d7ae8d7c2d8511b[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Feb 12 09:56:41 2024 -0800
+
+    [fix] epoch trigger feature flag (#168)
+
+[33mcommit 34d5c6ce105523693b3240d4e83a62aa956ef94c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Feb 7 07:33:08 2024 -0800
+
+    [release] 6.9.5 (#165)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 999a49381c04b44a91f65e4e38f9a80a6da81618[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Feb 2 23:42:35 2024 -0300
+
+    [Move] Epoch scheduler (#162)
+
+[33mcommit 3640091e45afb876f47969b1dd3b7333688833fc[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Feb 2 22:59:25 2024 -0300
+
+    [framework] use uniform build options for Move (#161)
+
+[33mcommit 65bb7ff7fa4b92cbbb2a011d18209277c0163634[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Jan 31 06:01:51 2024 -0800
+
+    [ci] formal verification ci (#157)
+
+[33mcommit b178bc418afba6ede7ed644be9cd99cadfb7af89[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Jan 31 06:01:18 2024 -0800
+
+    [tools] cli multisig features (#156)
+
+[33mcommit db4fd070d6897c3dc6548a9d8e2ffebc2de1275d[m[33m ([m[1;32mrescue-tests[m[33m, [m[1;32mapi-features[m[33m)[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Jan 22 13:57:06 2024 -0800
+
+    Update issue templates
+    
+    Add feature request issue template
+
+[33mcommit f00d7a43acc0a081f0face27e59c74835726dd53[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Jan 19 00:15:22 2024 -0500
+
+    [deps] remove unused deps (#145)
+    
+    Co-authored-by: 0o-de-lally <>
+
+[33mcommit 03cc9f92a8c3a5bc1cdb2f72278967386a4538ac[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Jan 18 14:35:21 2024 -0800
+
+    Update issue templates
+
+[33mcommit 958ce68fdd20e3d8723cdac773ba18d16f3f6b00[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Jan 15 16:27:26 2024 -0800
+
+    [fix] epoch scheduler (#136)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit c0be61092d60453e68f0992c4b0d6bb0033e75b6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Jan 15 14:47:17 2024 -0500
+
+    [move] set slow wallet entry function (#143)
+
+[33mcommit b595fc3ddeb23187425508c752e9225de6e406f3[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Jan 15 18:36:18 2024 +0000
+
+    [move] patch arithmetic issue on net_val_reward 6.9.2 (#142)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: Nonast <nakib@live.nl>
+    Co-authored-by: sh1hsh1nk <13179671+sm86@users.noreply.github.com>
+
+[33mcommit dc62b66099faa29023911a87dbb6cc4d52c840a3[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Sat Jan 13 13:53:23 2024 -0800
+
+    [tools] refactor rescue cli 6.9.1 (#137)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6f32a59226d041854f3ac0ea8fb1d5973ccc90c9[m
+Author: sh1hsh1nk <13179671+sm86@users.noreply.github.com>
+Date:   Fri Dec 8 18:46:19 2023 -0500
+
+    fix the vector borrow when index=size
+
+[33mcommit 06ae8cb2f6ca5f47e57cbf88156b5a100716c7fa[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Dec 6 16:09:07 2023 -0800
+
+    [fix] toy rng chain halt (#133)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit b6fc27af2225bb0d5ca4287a6cd70e9de38bbbbf[m[33m ([m[1;33mtag: 6.9.1[m[33m)[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Dec 6 14:43:44 2023 -0500
+
+    [move] performance metrics (#132)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 2475630bb066b2567480ceec5d1108baa87a226e[m
+Author: codilion <radiantvow@protonmail.com>
+Date:   Tue Dec 5 19:18:33 2023 +0100
+
+    [move] ancestry not implemented for account creation (#131)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 2d0c84020d664f0af624ae05f15ac5d95cd1370a[m
+Author: Steve <1848680+misko9@users.noreply.github.com>
+Date:   Sun Dec 3 12:42:54 2023 -0700
+
+    [tools] fix val config query to show correct fullnode/vfn address (#130)
+
+[33mcommit 8de53d412d723e5d50826766c47aed245ff756bd[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Dec 1 21:42:12 2023 -0500
+
+    [tools] patch account lookup starting with "0" (#129)
+
+[33mcommit c6d1bca40ee3e09305afd036946ac7f62729709e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Dec 1 14:31:06 2023 -0500
+
+    [deps] update to diem db1137ba1 (#124)
+    
+    Co-authored-by: sirouk <8901571+sirouk@users.noreply.github.com>
+    Co-authored-by: Yotam Katznelson <mr.hemulin@gmail.com>
+    Co-authored-by: Nour <1257310+nourspace@users.noreply.github.com>
+
+[33mcommit fd7f33a421ed5f679cb26beea2f41b06fbadfcca[m
+Author: Steve <1848680+misko9@users.noreply.github.com>
+Date:   Fri Dec 1 12:30:22 2023 -0700
+
+    [move] remove extra slow wallet tracking (#128)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 8a83c45fc820c4ab8be1acad629ac9034c8e3b5e[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Dec 1 14:27:42 2023 -0500
+
+    [tools] mainnet genesis blob and waypoint (#125)
+    
+    Co-authored-by: sirouk <git config --global user.name>
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 468e572b189128c0d4f86be1bf607a8427aa7a49[m[33m ([m[1;33mtag: 6.9.0[m[33m, [m[1;31mod/main[m[33m)[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Nov 29 18:57:05 2023 +0000
+
+    patch makefile with correct genesis repo release-v6.9.0-genesis-registration. Fix CI.
+
+[33mcommit 1eb80284b2118105eb15cc6304225fd01ddc3201[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Nov 29 13:04:01 2023 -0500
+
+    [move] voting power (#123)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 365652b9a7a1e87fc7b8f100d36e9e4509512123[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Sun Nov 26 18:15:07 2023 -0500
+
+    [tools] Sirouk rc.10 patches (#121)
+
+[33mcommit cc3c7cec70c4338082560375fdc286256c8a39eb[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Sat Nov 25 16:41:47 2023 -0500
+
+    rc.10 Genesis makefile patches (#120)
+
+[33mcommit 089512445b3eac582651eef0f70870a89561b1e9[m
+Author: Nour <1257310+nourspace@users.noreply.github.com>
+Date:   Sat Nov 25 03:21:17 2023 +0400
+
+    fix(util): add conditional sudo for some install_protoc commands (#117)
+
+[33mcommit 90e4528197aae0519edc500645cc5a0ec8532065[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Thu Nov 23 03:30:36 2023 +0000
+
+    Hardcoded EPOCH 694 in makefile (#116)
+
+[33mcommit 8c88664bc7668d09464ada83d4eecff050b3534f[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Nov 22 22:30:23 2023 -0500
+
+    [tools] Sirouk rc.10 patches (#114)
+    
+    Co-authored-by: sirouk <git config --global user.name>
+
+[33mcommit 1d9c285545d87de99d5c5809cdbf50856e388a2b[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Nov 22 16:13:13 2023 -0500
+
+    [tools] update Makefile and dev_setup scripts (#113)
+    
+    Co-authored-by: sirouk <git config --global user.name>
+
+[33mcommit 117113d06bcd6a1c142aef744d018cff4e1220ad[m[33m ([m[1;31mupstream/release-6.9.0[m[33m)[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 21 17:05:33 2023 -0500
+
+    [Move] Refactor coin scaling (#110)
+
+[33mcommit 5a847bf8bfeb2873b86befbe2ba30a5e7df64966[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Nov 22 09:05:02 2023 +1100
+
+    [tools] vfn configs (#109)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: Yotam Katznelson <mr.hemulin@gmail.com>
+    Co-authored-by: sirouk <8901571+sirouk@users.noreply.github.com>
+
+[33mcommit 1167a06347c6c6a2eba82258bc60640986a37bb6[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 21 16:51:06 2023 -0500
+
+    [tools] Update Makefile (#105)
+
+[33mcommit 9181868885023319d0180128393fee82d7992bad[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 21 16:04:43 2023 -0500
+
+    [move] sacred cow for epoch drip (#107)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit cb43c42ae77d537b15e473d59c270f2b61902cd2[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Nov 18 15:49:41 2023 -0500
+
+    [upgrade] migrate make whole (#103)
+
+[33mcommit c8f6ac21392ec3bb6c6a1df5c5d1a14ce8d2d9d1[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Thu Nov 16 19:47:10 2023 -0500
+
+    [move] Failover rules (#102)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: Yotam Katznelson <mr.hemulin@gmail.com>
+
+[33mcommit bf095168bda241e39d0bbbb76d9bab5a12ad5834[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue Nov 14 21:44:57 2023 +0000
+
+    Genesis makefile fixes. Better feedback on wizard registration at github fork step.
+
+[33mcommit 05591b73fbe8d435663b2083fbf09c5ec2ffc38a[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 14 15:11:16 2023 -0500
+
+    [move] Clean up names (#99)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit b7ddfe3956ceab097742b4a6ae4a04bc6dde8702[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 14 13:47:02 2023 -0500
+
+    [tools] VFN config builder (#98)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit f1c60439e77b75ab760309026aa5cd6c7ad4b8f0[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Nov 14 11:44:09 2023 -0500
+
+    [move] Patch locked deposits (#100)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 153c85d68e16d9d63c6db0cfe9e6712f8dcf6048[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Tue Nov 14 00:38:40 2023 +0000
+
+    [Tower] - Tower backlog, handle tower running over the limit (#97)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6ca291dad7cae876032b7d53b2f57d5632ec08cc[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Nov 9 16:03:39 2023 -0500
+
+    [deps] update to diem 1.6.2-rc.5 (#92)
+
+[33mcommit 8389cd6360b4511c05455358c46ac749884a6951[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Nov 10 19:09:44 2023 -0500
+
+    [move] essential formal verification tests on transfers (#94)
+    
+    Co-authored-by: Yotam Katznelson <mr.hemulin@gmail.com>
+
+[33mcommit 3a9aac040ca1363da9295ea6a5e46347900fdb1f[m[33m ([m[1;31mod/ci[m[33m)[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Wed Nov 8 08:51:52 2023 +0000
+
+    [upgrade] donor voice migration (#88)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: sirouk <8901571+sirouk@users.noreply.github.com>
+
+[33mcommit 3fbb620fb24ec57645a525ad3c5b2f37038525b0[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Tue Nov 7 20:13:38 2023 +0000
+
+    [upgrade] migrate user receipts for upgrade (#89)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: sirouk <8901571+sirouk@users.noreply.github.com>
+
+[33mcommit 7f24274436bda205dc00285a642269aebc59004d[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Sun Nov 5 18:50:48 2023 +0000
+
+    [move] default POF bid from genesis (#86)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6a7ff1ec70dc79b89f8a8a5d0e747e1c2b1a184d[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Sat Nov 4 21:53:20 2023 -0400
+
+    [move] patch thermostat on epoch boundary, add instrumentation (#87)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit cf5b7b1cb58fb77cc69d60c0b78643e670efde40[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Sun Nov 5 02:51:03 2023 +0100
+
+    [move] fix lifetime burn info (#85)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 75f2ef2bade38dc2763cca4f0567c11dcacafd16[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Sat Nov 4 20:55:02 2023 -0400
+
+    [tools] build the framework before genesis (#84)
+
+[33mcommit caa8c336b7a078c8d495fc48b7a5d01ea72a34b9[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Nov 4 18:39:35 2023 +0000
+
+    [upgrade] get actual git head for framework on upgrades
+
+[33mcommit f87e9536e9dc82051cd201a48b050d97cf75ff3b[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Nov 3 20:35:19 2023 -0400
+
+    [Move] patch burn tracker (#82)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 9cc79a78ef0ba4a7cc35ce08c8a9b96769456b79[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Nov 3 17:04:41 2023 -0400
+
+    [tools] config tool fullnode-init subcommand (#79)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit a8e84ea6d26371c76f65561aecaa2df11d7d861b[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Nov 3 15:59:05 2023 -0400
+
+    [upgrades] git commit hash included on-chain on upgrades (#80)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6d60dd456fa6c4ed65005391f8bd44472d9cfd16[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Nov 3 15:12:20 2023 -0400
+
+    [tower] patch tower counter add tests (#81)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 0a56a959bd595602964d98e796077dd5487514ed[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Thu Nov 2 14:17:48 2023 -0400
+
+    [tower] fix lazy counter reset (#78)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 1f05a9cf9bbcb50938fc0d8bb436eca707d1cc94[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Thu Nov 2 14:17:28 2023 -0400
+
+    Patch config init (#77)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 0596d77c64713bbde85d2c33f56c740fd22e9aa1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Nov 1 20:02:12 2023 -0400
+
+    [tools] remove tbd query subcommands (#76)
+
+[33mcommit 41c0274a5825d3de8056652bb610ad33955d96ce[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Nov 1 17:20:41 2023 -0400
+
+    `update -p diem` updates cargo.lock (#75)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 7eec02cadc24d651ccd9f9613eef73d8a173579c[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Nov 1 16:47:59 2023 -0400
+
+    [tools] fix network address registration for validators (#74)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit dbc5dcf33f833adbeb45bf2f1597367dd72941d2[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Oct 31 17:02:51 2023 -0400
+
+    [query] create query view for validator config (#73)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit ccd01c08f1a910f84371d30f5e4d67f0ae6c0426[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Oct 30 20:27:08 2023 +0000
+
+    patch makefile use CHAIN = testnet
+
+[33mcommit c81719593213f0674a752b1c7d0c2349394291c5[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Oct 30 20:22:31 2023 +0000
+
+    update makefile
+
+[33mcommit 23d0bbd8ceb1c11c0b7addfd03b8e5f3cb348868[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Mon Oct 30 14:34:53 2023 +0100
+
+    Vouch validators fixes
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit dc9f71fae09acb31f4f14419082eb99abb97b2a2[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Thu Oct 26 11:52:50 2023 -0400
+
+    [move] burn tracker (#69)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 7e8ba63abc0053d37b1b1d126eec9e0fdca5f46b[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Oct 26 00:04:36 2023 -0400
+
+    release 6.9.0-rc.6 patches (#67)
+
+[33mcommit 1cec6f739c6f8553e1c614595c69770140b5ade2[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Oct 26 07:07:24 2023 +1100
+
+    [genesis] Final supply migration and documentation (#68)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit f53ed4998d981004c9e1e04586302aaf70d715cb[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Oct 14 13:58:39 2023 -0400
+
+    [deps] Update diem deps (#66)
+
+[33mcommit 63dc74b8f0ad348916ff29c228cc2db0581dc158[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Oct 13 11:50:11 2023 -0400
+
+    [move] clear bloat from stake.move (#63)
+
+[33mcommit 3b16573909cf9bedd4f9ddb0ecdce0177e674e94[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Oct 12 12:48:33 2023 +1100
+
+    [move] adding formal verification tests to coin & renames (#65)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 869fee93d558c1aefa8d8e68d46ad843906f2d53[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Thu Oct 12 03:30:47 2023 +0200
+
+    [move] Update move-stdlib deps (#62)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 8703ea9371d8ce4533978b5e60ec00591f0d31b6[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Oct 12 08:11:21 2023 +1100
+
+    [rust] rescue mode transaction generation and db write (#64)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit ba05ec9e8c19eede871dadd1edbc2789a20de3f2[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Thu Oct 5 15:04:30 2023 -0400
+
+    Globals refactor (#61)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 97b691ffd0db866e880e62b3c8616f8546f04da6[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Oct 3 14:42:28 2023 -0400
+
+    [move] Tower rewards (#60)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 57f64ed570c161f311c725c29250d7ceef4d3cc6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Sep 29 21:50:44 2023 -0400
+
+    Cleanup toml (#59)
+
+[33mcommit 108490e346f7724d0d991d95f66a46444f678dcc[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Sat Sep 30 03:48:00 2023 +0200
+
+    [Move] Coin methods hygiene (#57)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 1575c5e72f665b0da3592113565171d6b90fc251[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Sep 29 00:33:58 2023 -0400
+
+    [Testsuite] Patch validator set initialization for smoke tests (#58)
+
+[33mcommit ef157fde89aa5087338b24bf4f92d4205d96283f[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Sep 27 16:00:34 2023 -0400
+
+    [Move] Boundary instrumentation (#56)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit d598aa0f20e729eb3d696bbf75660dedf464d57b[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Wed Sep 27 14:50:03 2023 -0400
+
+    [TXS] validator registration txs (#55)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 6677a6635080e57a57c6ca58526d2f3aa3dfbc49[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Sep 19 16:38:53 2023 -0400
+
+    [Tower] proof refactor (#54)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 35f9c0d610bd1a14d67216b8ca5db05d1a809155[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Tue Sep 19 13:38:40 2023 -0700
+
+    [Framework] Update Musical Chairs to capture edge case (#50)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 4f192aac38697560828f4500dc90345396beb4bd[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Sat Sep 16 15:14:30 2023 -0400
+
+    [Carpe] patch api changes for compatibility (#53)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit c42f4a998e99c4c3e09c971cd0b6fdc53879e930[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Sep 14 16:35:21 2023 -0400
+
+    [tower] difficulty randomness refactor (#52)
+
+[33mcommit 12813c75f04373aec82feef07bf51e25342efe53[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Sep 13 21:25:24 2023 -0400
+
+    [tower] difficulty randomness refactor (#49)
+
+[33mcommit 04a9e8db19186e8407a2665e894c8483f2507450[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Sep 13 21:22:40 2023 -0400
+
+    [upgrades] fix upgrade script generation and patch final smoke tests (#45)
+
+[33mcommit 2593c98c6dfbfe6f771a7339e41687bea4b4510e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Sep 13 20:50:39 2023 -0400
+
+    [CI] github actions compile cache fixes (#51)
+
+[33mcommit f5ff4b8f9222ed5b3128673cb6969f2a4ddd1813[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Sep 8 19:14:19 2023 -0400
+
+    [move] refactor epoch_boundary (#48)
+
+[33mcommit 26a7819f68504bf9c9b8666e98ef1314a50a413b[m
+Author: zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Thu Sep 7 15:22:45 2023 -0700
+
+    [CI] Update workflows to utilize our self hosted runner (#46)
+    
+    First attempt at using our self-hosted runner for our CI.
+
+[33mcommit 43cfd735fe2869ab460c6eae1586fe1075c145a9[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Tue Sep 5 17:26:01 2023 -0400
+
+    [Genesis] Patch move framework address (#43)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 599c59539b417b49adb6301a2191a24d99a33c8b[m
+Author: Zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Tue Aug 29 15:44:44 2023 -0700
+
+    [move] restore files from Diem commit 782b (#26)
+    
+    - Restore the (simpler) coin code from the original Move framework commit.
+    - Needed to be updated for new language features since publication (minor changes, no changes to APIs).
+    - Add copyright and license notices
+
+[33mcommit 9d159c0b27a31cd9825efe22abf5259f74ca49b1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Sep 1 19:36:45 2023 +0000
+
+    change to pledege accounts to fixed_point64 precision
+
+[33mcommit 43c3793e798b2d61d396ca3fa1578a03a39461b5[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Aug 31 12:57:43 2023 -0400
+
+    genesis validators receive bootstrap coin, infra escrow
+
+[33mcommit d172e3b29c1ad89bebd7789ed5cadef5ab68bc7c[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Aug 30 12:34:11 2023 -0400
+
+    refactor ancestry resource and add test to genesis
+
+[33mcommit 9f6f7c892de5f1b8649a66f1a461c0ef941c9ba8[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Aug 30 11:50:15 2023 -0400
+
+    cleanup genesis db boostrapping
+
+[33mcommit a0684353925619a9fc0edaf7e96aa84a752c523f[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Aug 30 11:17:39 2023 -0400
+
+    [genesis] Fix ancestry import bug
+
+[33mcommit e5b4282f1ee5f3ec64da756488e10baf83f0ef9e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue Aug 29 16:16:52 2023 -0400
+
+    update vdf difficulty at init
+
+[33mcommit 27f11c18677e86aa39ef9bed2aad67a74f13be5b[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Aug 28 13:04:03 2023 -0400
+
+    simplify app_cfg async paths
+
+[33mcommit cf552cc4b0e28873e16327f92210fef5772678c6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue Aug 29 19:46:07 2023 -0400
+
+    let testnet optionally pass supply settings
+
+[33mcommit 96188bdf4b67ebc8e6cc189ef7ed24484076920b[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sun Aug 27 14:18:56 2023 -0400
+
+    [tools] Testnet automation, setting up a testnet with one command
+
+[33mcommit 381745343cc8df3460f5132292a651361062ab34[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sun Aug 27 13:05:39 2023 -0400
+
+    [genesis] cleanup genesis layout.yaml configuration
+
+[33mcommit a5b22f657ae676637d6968b3f662b8356d9e3dbb[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Aug 26 18:32:14 2023 -0400
+
+    patch epoch boundary to subsidize from infra escrow. pay oracle providers. initialize musical chairs
+
+[33mcommit 6c7027cd33d343525540169b82e8996691dadc83[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Aug 10 14:40:08 2023 -0400
+
+    add check on vouch for to not waste vouhes on related accounts
+
+[33mcommit 04d1cee4fa333cb2236da845963d55e369b401b3[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Aug 10 14:19:52 2023 -0400
+
+    cleanup vouch, and remove ddos vector
+
+[33mcommit 3529f5860d3c5453c6045f618733ba7f0f43f89c[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Aug 26 15:56:49 2023 -0400
+
+    add oracle reward events
+
+[33mcommit 4e32cc34d68f43d4877ea941f3e1667fd9312d3c[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Aug 26 15:30:42 2023 -0400
+
+    epoch_boundary processes tower miners. patched mock::trigger_epoch. all move tests passing.
+
+[33mcommit 2ac1c3a8eb5c4017975d8d705a4cedd7b1b82fcc[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sun Aug 20 20:37:51 2023 -0400
+
+    [Tower] finalize rewards policy with Oracle, patch issue with VDF adjustment
+
+[33mcommit 930aa790d416f3da80020564e4913b63c4013779[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Aug 30 16:18:56 2023 -0400
+
+    [Deps] update to Diem 1.6.2
+
+[33mcommit 5409847022fd05e84bec5068695e29220a3d0c23[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Aug 25 20:31:05 2023 +0000
+
+    [config] AppCfg refactors patches to address lookup, key management
+    
+    patch issue with looking up addresses
+    
+    update tower prompt for mnemonic
+    
+    helper to fix addresses
+    
+    create localhost profile for validator
+    
+    key hygiene
+
+[33mcommit 9e2af391f24d033913fe452fc2b93b520ab0bd89[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Aug 24 20:31:06 2023 -0400
+
+    update ci.yaml for diem update
+    
+    update to diem #a695fe4b4
+    
+    rename framework files
+
+[33mcommit 05d0bc0d54ccf65777b426973455d93b5170d8b3[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Aug 24 15:29:41 2023 -0400
+
+    update upstream dependency to diem
+    
+    patch ./types
+    
+    patch ./transactional_tests
+    
+    patch ./smoke-tests
+    
+    all crates compile
+    
+    update release profile
+
+[33mcommit 9824743b30a0949a073ba10f95b44f6342a0bee2[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Sat Aug 19 17:57:30 2023 -0400
+
+    [CI] patch remaining tests and update workflows
+    
+    make proof_of_fee::current_bid  a view function
+    
+    reorganize ci
+    
+    update docs with commit history
+    
+    test bins issue
+    
+    put a delay after fork creation or it wont be ready on the next request
+    
+    patch yaml file. cargo fmt
+    
+    update to vendor 1.6.2, rust toolchain to 1.70.0
+
+[33mcommit b0683f2236cb41492e76162661acba81a2cba0dc[m
+Author: 0xzoz <zeroexzoz@gmail.com>
+Date:   Tue Aug 15 15:03:18 2023 -0700
+
+    Fix CI
+
+[33mcommit 9c46782363d74a395865b5fbe1fa82b5e29696e5[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Mon Aug 14 17:02:52 2023 -0400
+
+    Tooling for System and User Move Publishing (#22)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+    Co-authored-by: Codilion <radiantvow@protonmail.com>
+
+[33mcommit f23c64efc1a488dce2ded23b70789e8063d72404[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Fri Aug 11 12:34:26 2023 -0400
+
+    Account Migration, Final Supply, VoteLib, and more (#21)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 756f7bf3c82eb42fd69b9b8eba9aad0151ccc340[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri Aug 4 12:30:42 2023 -0400
+
+    [CI] workspace tests (#23)
+
+[33mcommit 151158ce263867390ce0bb96babcb0430a210b61[m
+Author: Zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Jul 12 15:04:17 2023 -0700
+
+    [Tool] Txs Features (#20)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 627632e5d00672c33f220459508758c173dbe9e0[m
+Author: Zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Wed Jul 12 09:25:31 2023 -0700
+
+    [Genesis] Finalize account migration from legacy
+    
+    Changes to Move system policies, Rust genesis building tool, and other workflow fixes.
+    
+    - [ ] dynamic calculation of infra escrow
+    - [ ] migrate tower state
+    - [ ] simplify ancestry migration
+    - [ ] slow wallet migration
+    - [ ] patch tools for coin scaling (6 decimals for coin as in legacy)
+    - [ ] fixes to common types
+    - [ ] flesh out cli tool for genesis
+    - [ ] genesis builder calls migration functions atomically
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 622505c4129b8ebcb195d907017b87e093940b1e[m
+Author: sirouk <8901571+sirouk@users.noreply.github.com>
+Date:   Mon Jul 3 14:17:46 2023 -0400
+
+    [Tower] Create transaction helpers for submitting tower vdf proofs (#18)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit da8100798b2d8913c19632556642d7ac891a4286[m
+Author: Zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Tue Jun 27 12:56:02 2023 -0700
+
+    [ Carpe ] Migration to V7 (#17)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit d129ca34a1fbcf8984d59f680036582049ad2c44[m
+Author: Zoz <97761083+0xzoz@users.noreply.github.com>
+Date:   Mon Jun 26 11:49:24 2023 -0700
+
+    [ Patch ] Fix Genesis tooling (#16)
+
+[33mcommit 293577f0b1204f6f7307de7d4e78631c892759a9[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed Jun 21 16:10:21 2023 -0400
+
+    [Tools] Refactor tools throughout to have same clap patterns (#14)
+
+[33mcommit 047ee8532e7cad078dd44caa43e54b4988549546[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon Jun 19 18:06:23 2023 -0400
+
+    [Tower] Implement native functions and tower controllers (#13)
+
+[33mcommit 5c383e2eacf6694312d1dc6d1436b6fc30ada998[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Tue Jun 13 21:17:01 2023 +0100
+
+    [Upgrades] Refactor hot upgrade framework (#12)
+    
+    authored-by: 0o-de-lally
+
+[33mcommit 28ba571fcce49178b13c15a7e083f5edcb6264b4[m
+Author: Yotam Katznelson <mr.hemulin@gmail.com>
+Date:   Tue Jun 13 19:26:43 2023 +0100
+
+    [Tools] Refactor transaction sending tool (TXS) and on-chain tx verification (#11)
+    
+    Co-authored-by: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+
+[33mcommit 31ee5e2a7c62cd714887a30f5b7c8ae54e662763[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Jun 8 10:08:55 2023 -0400
+
+    recovery genesis workflow (#10)
+
+[33mcommit 3529dba2dc768bde40a9d34b84cc64fabba18126[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu Jun 1 16:21:06 2023 -0400
+
+    [Genesis] fix validator network host publication (#9)
+
+[33mcommit 7e771f1a0ef6d2d96a0cc86c2814a7e693443e53[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Wed May 31 16:48:29 2023 -0400
+
+    [Framework] Refactor framework and smoke-test workflows (#7)
+
+[33mcommit baee2be252190a0b4c17acb55681863199c5f8df[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 20:16:17 2023 -0400
+
+    [Tests] Patch wallet and genesis tests (#6)
+
+[33mcommit d6de49ca2da080412a4219ee163d99ca59bd4b83[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 13:42:12 2023 -0400
+
+    [Dependencies] Update cargo.lock with a diesel_derives that is not broken (#5)
+
+[33mcommit 4e69d267bb1e738fd5fae4fb022353c83d63cf15[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 12:25:48 2023 -0400
+
+    [Dependencies] Update zapatos version (#4)
+
+[33mcommit 8a3e93c38b62918fc5b21f7e201c5a091ee41fa8[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 12:14:29 2023 -0400
+
+    [Move] Port the rewards logic from V6 (#3)
+
+[33mcommit 1ad162a2d18728addcda7e4eb14cfe58547403b4[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 12:07:25 2023 -0400
+
+    [Tooling] Add new CLI tooling from separate repo into monorepo (#2)
+
+[33mcommit 3f8b55036cb93c3d9f3157b2cc6e82effb2dabbf[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 30 11:51:26 2023 -0400
+
+    [Move] Framework changes to validator admission (#1)
+
+[33mcommit 1856db36674696fdfdd885fbcfbfbb19a29359a8[m
+Merge: caa92be9 3283b7ed
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Tue May 30 10:43:53 2023 +0300
+
+    Merge branch 'main' into temp
+
+[33mcommit 3283b7ed5906c3bb6a2f9137c9c77dfb709500eb[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Tue May 30 10:41:21 2023 +0300
+
+    Update zapatos version
+
+[33mcommit caa92be9d8fcb50e281f33f51d2d82f1cc128d5a[m
+Merge: 7e0906b6 172c3696
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 24 16:31:01 2023 +0300
+
+    Adding some move unit tests and node_weight.move
+
+[33mcommit 7e0906b65feef7a9334847afa9b21f9df9cf4240[m
+Merge: 6da0d591 568556c8
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Tue May 23 17:37:12 2023 +0300
+
+    Merge remote-tracking branch '0d-v7/proof-of-fee' into temp
+
+[33mcommit 172c36964ddc3a51c22b2cf784807925dfbe9dbc[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Tue May 23 10:11:05 2023 +0300
+
+    Adding test_helpers and first 2 tests for vouch
+
+[33mcommit 568556c8deaf9993d1f1917c29d0e272b0034db6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 15:42:33 2023 -0400
+
+    refactored failover rules
+
+[33mcommit 9a590dae80012cbc3a8ac5227654b0ec7b19e128[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 15:07:33 2023 -0400
+
+    update stake with failover rules
+
+[33mcommit e33b3853dae2a8c999921d963f98766f0c64fe3d[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 14:16:41 2023 -0400
+
+    refactor epoch mocking, all tests pass.
+
+[33mcommit 21d839ed1602bbdafaac97d9880a76e808a5f476[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 13:27:11 2023 -0400
+
+    refactor musical chairs init
+
+[33mcommit 9cd89f8073ce757f7c14fbd19477798a1e70ab42[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 12:27:34 2023 -0400
+
+    refactor stake bulk updating
+
+[33mcommit b15a2911772f61b7bd1a0b98de71794f2e9d5797[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 12:03:16 2023 -0400
+
+    refactor epoch boundary
+
+[33mcommit 6f8f07c73f1de8b684ad3985d0ee5954b0160097[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 11:22:05 2023 -0400
+
+    jail sorting
+
+[33mcommit 5b083197ad615be9ebf3f5cf8c0f07543325607b[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 11:12:54 2023 -0400
+
+    cleanup cases api
+
+[33mcommit fa3fa6cc73f2df1d3df3ebdba48ab9ab0513ce1e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 11:09:46 2023 -0400
+
+    text
+
+[33mcommit 938cef43836ebd85de7f0c4f9ab7bdf899be1fc8[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 22 11:04:21 2023 -0400
+
+    text
+
+[33mcommit d116c8ed8f75158b9c53a4d2354bd1e973a98ee1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri May 19 14:17:11 2023 -0400
+
+    text
+
+[33mcommit 90528c7eee666d380bd689a3aa18099da6954a46[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri May 19 14:16:25 2023 -0400
+
+    coding conventions doc
+
+[33mcommit a30a88dfe412beecbfa0ec36781828355f62c95b[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri May 19 13:34:26 2023 -0400
+
+    tests for jailing and unjailing reputation markers
+
+[33mcommit 45049f648d735f92ef681640b271c55e7d931bf1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Fri May 19 13:15:22 2023 -0400
+
+    refactor validator registration. tests passing
+
+[33mcommit 1e256447dcdc44a1416077f66a28618049b9ff0c[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 18 15:58:47 2023 -0400
+
+    refactor validator registration. tests failing
+
+[33mcommit 94e0c8dfbb02c0fe11939149fabd2ffbf74af54f[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 18 15:26:38 2023 -0400
+
+    set minimum failover rules for updating validator set.
+
+[33mcommit c8da614605ea228992299a44b17e208b13306c1f[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 18 15:16:13 2023 -0400
+
+    ability to bulk add validators
+
+[33mcommit 9c4e05d6b2b64334f89cf1a3d27d1f20c1b7e9a1[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Thu May 18 18:09:25 2023 +0300
+
+    Adding more tx-tests as unit tests
+
+[33mcommit 6b08959336facf76676b40d57411e06dc9b2cbf6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 14:46:29 2023 -0400
+
+    all pof tests ported. all tests passing
+
+[33mcommit 72d2d5acc1cb9fed22a7115a67bf60fecb50b784[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 14:11:28 2023 -0400
+
+    cleanup system names, tests passing
+
+[33mcommit 54598feba5d0e0a6b1870421422207667ce887d4[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 13:52:41 2023 -0400
+
+    mock fix val order
+
+[33mcommit 8a638d1ef5307733e154464f82722927ed9721e1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 13:52:15 2023 -0400
+
+    pof tests
+
+[33mcommit 4a3f7f0aebf8e5126abebda91ccdb775345e48bb[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 13:18:20 2023 -0400
+
+    fill_seats_happy test passing
+
+[33mcommit d523500c27282689464b052b8d5e59f7b2189785[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 16 12:46:09 2023 -0400
+
+    pof sorting happy case test
+
+[33mcommit 0da38700e78a73c27479afc6ae75bb374ebd2572[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 15 17:45:57 2023 -0400
+
+    all tests passing
+
+[33mcommit 4cb7ab6c9dccf14f92ff403b3598113d7162af8e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 15 17:42:25 2023 -0400
+
+    cleanup test prints
+
+[33mcommit d7d528eb1779800c438bd48d91ace1fc53b46c77[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 15 17:37:02 2023 -0400
+
+    add meta tests for triggering reconfiguration in test harness
+
+[33mcommit 7ccdbd9d52a09a6acd9e09a5c74922cf01376a70[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 15 16:42:02 2023 -0400
+
+    proof of fee audit_qualification tests passing
+
+[33mcommit 78d849bcf33d8afc34a50a7985f20e9d9549594a[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 11:12:53 2023 +0300
+
+    Refactoring
+
+[33mcommit f97566274e3cc22b12fbcd9cb6a5c63b89b0a472[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 11:08:20 2023 +0300
+
+    Refactoring
+
+[33mcommit 9d0cdbe3a8a8077863a028fe5f09d323c38198e5[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 08:58:36 2023 +0300
+
+    Adding more tx-tests as unit tests
+
+[33mcommit 60c0cccccac07a88a52ac401a98686b6b5c2199a[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 08:57:37 2023 +0300
+
+    Add noge_weight
+
+[33mcommit 607af00493416bdd017d1d9ec89fd5918f01bdf7[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 08:56:41 2023 +0300
+
+    Refactoring
+
+[33mcommit 696a981ec3c07d81a2fee23007891f4d2343f4c7[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 10 08:55:10 2023 +0300
+
+    ol-fw inlcudes aptos-fw
+
+[33mcommit a64c0677bfd58fa422aa8f79616c909dbda7b673[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 15:34:05 2023 -0400
+
+    slow wallet reconfigure test. tests passing
+
+[33mcommit 8dfdbbb1e3f9e35dcb0ce2bb3442c594986b559d[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 15:15:17 2023 -0400
+
+    slow wallet transfer limits tested
+
+[33mcommit 587820f55050840476eb9a77a25dd2176a276e49[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 14:33:03 2023 -0400
+
+    slow wallet drip working
+
+[33mcommit 48e2d7f475061610d9a6d26192eecc775bec12a2[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 14:06:34 2023 -0400
+
+    refactor, test passing
+
+[33mcommit 9f5582074a47e5b908478002a03f95770796c471[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 13:53:46 2023 -0400
+
+    slow wallet init works
+
+[33mcommit 7ba270a0be7e68abfac17e21aedf3a05aa9d71f4[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 13:46:23 2023 -0400
+
+    can initialize slow wallets from genesis
+
+[33mcommit b9af73195865baa5921cb47ab8d239e137ca388e[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Tue May 9 13:36:24 2023 -0400
+
+    start porting accounts and coin
+
+[33mcommit 83254642b5dccbe2bce059834780e26bbbc204de[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 17:12:18 2023 -0400
+
+    patch
+
+[33mcommit e648593e0dd4535d711621ae7ec5fd373a14cb59[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 17:11:37 2023 -0400
+
+    scaffold pof audit tests
+
+[33mcommit bdd1832fef688a47574694bfac98ea82ad93c160[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 16:55:39 2023 -0400
+
+    pof init, set, retract test passing.
+
+[33mcommit 73b0b0d65d84478e0762387e087a3016fc083abd[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 16:34:46 2023 -0400
+
+    thermostat tests passing.
+
+[33mcommit f4794cd51bd5e04f3c55519e3d062a95710abe73[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 16:24:07 2023 -0400
+
+    scaffold proof of fee tests
+
+[33mcommit 279b39571cd193a8a68fd46a29593b48ed1c9bec[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 15:43:02 2023 -0400
+
+    tests passing again
+
+[33mcommit 67de3801bed6fa726f19938fbd8769c33816e1e1[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 15:36:00 2023 -0400
+
+    musical chairs tests complete
+
+[33mcommit 3381736154b41a3f50baa9f892c7765eb38c3411[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 15:29:32 2023 -0400
+
+    change system addresses
+
+[33mcommit 10e860f41e5af4560780c634334a252e8c0ce8ae[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 15:06:37 2023 -0400
+
+    tests passing
+
+[33mcommit fefdfc44e2d8e2a54c3aaea20724511dc840e524[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 14:49:03 2023 -0400
+
+    cleanup tests
+
+[33mcommit ed4fb0cab6abb8e5f944d72729dd65ab7ec892d3[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Mon May 8 14:42:44 2023 -0400
+
+    helpers to mock a validator set
+
+[33mcommit 1b5eb8ba698ac260346c630cc7028884fd18d26a[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri May 5 17:58:02 2023 +0300
+
+    Moving tx-tests into related src file
+
+[33mcommit 6d4925b2d32289daa025cf9baac5a0330d9c7097[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri May 5 17:17:52 2023 +0300
+
+    Adding first working tx-tests from v6
+
+[33mcommit 6da0d59151ce6a905d3078c3f9091a0c042b20db[m
+Merge: 67e49551 91e88036
+Author: Gökhan Şimşek <g.simsek@paralect.com>
+Date:   Fri May 5 16:15:07 2023 +0300
+
+    Merge pull request #1 from 0o-de-lally/proof-of-fee
+    
+    Port V6 Move Source
+
+[33mcommit 91e88036c7057dd60376d3114c952b502d6639fa[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 20:24:35 2023 -0400
+
+    update validator universe
+
+[33mcommit a33005546b46a07f9d3c46965daf11ff4af988e6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 20:04:26 2023 -0400
+
+    cleanup
+
+[33mcommit 57d8f7af289e5088fc648d5cc2174a62f274adb6[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 20:00:24 2023 -0400
+
+    add vouch
+
+[33mcommit 204acaa147cdec6f6af3a5562e1bc1e422d575a2[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 17:21:18 2023 -0400
+
+    able to mock proof of fee setup.
+
+[33mcommit 45a7827cf25b55f750e6ad5b8b9188376a8e21b8[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 17:11:33 2023 -0400
+
+    all tests passing
+
+[33mcommit a1d8138cc5f437924064b9c271f0b49ed5f9b7d0[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 17:05:07 2023 -0400
+
+    able to mock case_1
+
+[33mcommit 1bb43e3967642b9e62ad96c906138e883a962e9d[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 16:52:26 2023 -0400
+
+    start ol tests
+
+[33mcommit 010676b7549227de6b2dea72f0cd3040d9ab1114[m
+Author: 0o-de-lally <1364012+0o-de-lally@users.noreply.github.com>
+Date:   Thu May 4 16:49:08 2023 -0400
+
+    all unit tests passing
+
+[33mcommit 67e495514465c8efa1f30953a9e373fbb9b2c009[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed May 3 15:38:51 2023 +0300
+
+    Adding more ol-fw move srcs
+
+[33mcommit a220555582c0d2219520e8cff19405831ed5d085[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Mon May 1 15:55:50 2023 +0300
+
+    Adding more ol-fw move srcs
+
+[33mcommit 86445475f5e42bc942302edfc7d12bdbff5143bb[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Mon May 1 15:55:12 2023 +0300
+
+    Adding vdf srcs
+
+[33mcommit 81c77dd8446672aeac021da995b6ec65fcc37db0[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 28 09:14:48 2023 +0300
+
+    Adding vdf
+
+[33mcommit cc83b77fcbbfec6fe66db2114de0257b2556d231[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Thu Apr 27 11:32:05 2023 +0300
+
+    Adding more ol-fw src files
+
+[33mcommit 5c2d06a0e917f3a2eace03d575cb9f149be23b59[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Thu Apr 27 09:48:51 2023 +0300
+
+    Adding ol-fw srcs: globals, stats and testnet
+
+[33mcommit bf3187a05d9344c16ea5a2172ba6a3ee659c10dc[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 26 14:25:33 2023 +0300
+
+    Adding first v6 ol-fw file stats.move
+
+[33mcommit eaf947b486f58156755b65e105b1c917fa7bd00d[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 26 14:24:29 2023 +0300
+
+    Add helper scripts
+
+[33mcommit df9f8314f0747d2356d812939cd62e0c54ffe4f7[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 26 09:41:19 2023 +0300
+
+    Refactoring
+
+[33mcommit 02e3e80dae60d933028ed5be068fe7ad7d1c5350[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 26 09:32:15 2023 +0300
+
+    Minor change
+
+[33mcommit 52d86eb35b6762c841f49fda1338abc1a41f70ef[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 26 09:31:40 2023 +0300
+
+    First working smoke test mint_transfer
+
+[33mcommit 2fde8f5e21bba621216a1c75c7d3d74411066acf[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 21 18:00:06 2023 +0300
+
+    Minor change
+
+[33mcommit d63c575370615c93c1b853886408c02407e8adb1[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 21 17:59:48 2023 +0300
+
+    Minor change
+
+[33mcommit 86e62efbe96fb407cf84c290a6bf2b3bdd16d1e7[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 21 17:59:18 2023 +0300
+
+    Add aptos build flags
+
+[33mcommit 760ec0d149d634cc1a40b146b19f8d21a8eeaeae[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 21 17:58:44 2023 +0300
+
+    Change ol-fw address
+
+[33mcommit ffd2b0b70c9a693459e5ab1b2e4fb68b4196648b[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Fri Apr 21 17:57:52 2023 +0300
+
+    Adding smoke tests
+
+[33mcommit 279a4577ea1169cffc0e25263ce7514e179fdecf[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 19 10:23:12 2023 +0300
+
+    Adding transac. tests
+
+[33mcommit 14c93360e4a3bc8ba246c9e250aeed1953f01657[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 19 10:22:25 2023 +0300
+
+    Adding ol-fw
+
+[33mcommit 5478eb1300906647aa88b3a4797de3d832e0565b[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 19 10:20:41 2023 +0300
+
+    First commit
+
+[33mcommit addd7eb6ec10bea5152170673a1705e3f4d18ab2[m
+Author: Gokhan Simsek <g.simsek@paralect.com>
+Date:   Wed Apr 19 10:20:41 2023 +0300
+
+    initial commit

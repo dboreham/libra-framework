@@ -53,7 +53,7 @@ pub fn libra_author_script_file(
     emitln!(writer, "script {");
     writer.indent();
     emitln!(writer, "use std::vector;");
-    emitln!(writer, "use std::features::change_feature_flags;");
+    emitln!(writer, "use std::features;");
     emitln!(writer, "use diem_framework::diem_governance;");
     emitln!(writer, "use diem_framework::code;\n");
     emitln!(writer, "use diem_framework::version;\n");
@@ -66,19 +66,13 @@ pub fn libra_author_script_file(
     for flag in enable_feature_flags {
         emitln!(writer, "vector::push_back(&mut enable_flags, {});", flag);
     }
-    
+
     // Generate the code to handle disabling feature flags
     emitln!(writer, "let disable_flags = vector::empty<u64>();");
     for flag in disable_feature_flags {
         emitln!(writer, "vector::push_back(&mut disable_flags, {});", flag);
     }
-    
-    // Insert the call to change feature flags
-    emitln!(
-        writer,
-        "features::change_feature_flags(proposal_id, enable_flags, disable_flags);"
-    );
-    
+
     // This is the multi step proposal, needs a next hash even if it a single step and thus an empty vec.
     generate_next_execution_hash_blob(&writer, for_address, next_execution_hash);
 
@@ -119,6 +113,11 @@ pub fn libra_author_script_file(
             i
         );
     }
+    // Insert the call to change feature flags
+    emitln!(
+        writer,
+        "features::change_feature_flags(&framework_signer, enable_flags, disable_flags);"
+    );
 
     emitln!(
         writer,

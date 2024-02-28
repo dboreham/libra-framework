@@ -46,6 +46,14 @@ pub struct FrameworkUpgrade {
     /// optional, list of core module directory names to compile. It will default to this order: move-stdlib, vendor-stdlib, libra-framework
     #[clap(long)]
     pub core_modules: Option<Vec<String>>,
+
+    /// Feature flags to enable
+    #[clap(short, long)]
+    pub enable: Option<Vec<String>>,
+
+    /// Feature flags to disable
+    #[clap(short = 'd', long)]
+    pub disable: Option<Vec<String>>,
 }
 
 impl FrameworkUpgrade {
@@ -63,6 +71,8 @@ impl FrameworkUpgrade {
             &self.output_dir,
             &self.framework_local_dir,
             &self.core_modules,
+            &self.enable,
+            &self.disable,
         )?;
 
         Ok(())

@@ -2,6 +2,7 @@
 //! see vendor diem-move/framework/src/release_bundle.rs
 
 use crate::{builder::framework_release_bundle::libra_author_script_file, BYTECODE_VERSION};
+use anyhow::anyhow;
 use anyhow::{ensure, Context, Result};
 use diem_crypto::HashValue;
 use diem_framework::{BuildOptions, BuiltPackage, ReleasePackage};
@@ -28,7 +29,30 @@ pub fn make_framework_upgrade_artifacts(
     proposal_move_package_dir: &Path,
     framework_local_dir: &Path,
     core_modules: &Option<Vec<String>>,
+    enable_flags: &Option<Vec<String>>, // Added enable flags parameter
+    disable_flags: &Option<Vec<String>>, // Added disable flags parameter
 ) -> Result<Vec<(String, String)>> {
+    // Convert enable and disable flags from Vec<String> to Vec<u64>
+    let enable_flags_u64: Result<Vec<u64>, _> = enable_flags
+        .as_ref()
+        .unwrap_or(&Vec::new())
+        .iter()
+        .map(|flag| flag.parse::<u64>())
+        .collect();
+
+    let disable_flags_u64: Result<Vec<u64>, _> = disable_flags
+        .as_ref()
+        .unwrap_or(&Vec::new())
+        .iter()
+        .map(|flag| flag.parse::<u64>())
+        .collect();
+
+    // Handle potential parsing errors
+    let enable_flags =
+        enable_flags_u64.map_err(|e| anyhow!("Error parsing enable flags: {}", e))?;
+    let disable_flags =
+        disable_flags_u64.map_err(|e| anyhow!("Error parsing disable flags: {}", e))?;
+
     let framework_git_hash =
         &get_framework_git_head(framework_local_dir).unwrap_or("none".to_owned());
 
@@ -101,6 +125,8 @@ pub fn make_framework_upgrade_artifacts(
             deploy_to_account,
             this_mod_gov_script_path.clone(),
             next_execution_hash,
+            enable_flags.clone(),  // Pass the parsed enable flags
+            disable_flags.clone(), // Pass the parsed disable flags
             framework_git_hash,
         )?;
 
