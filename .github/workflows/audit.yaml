@@ -1,0 +1,23 @@
+name: Dependency Audit
+on:
+  push:
+    branches:
+      "*"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup env
+        uses: ./.github/actions/build_env
+
+      - name: install cargo-audit
+        run: |
+          cargo install cargo-audit
+
+      - name: run cargo-audit
+        run: cargo audit
