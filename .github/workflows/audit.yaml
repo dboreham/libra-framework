@@ -1,8 +1,12 @@
-name: Dependency Audit
+name: dependency audit
 on:
   push:
     branches:
       "*"
+
+# Note, this exists: https://github.com/rustsec/audit-check
+# but we chose not to use it for now since the task is very simple
+# and we aren't trying to do fancy stuff like auto-fixing yet.
 
 jobs:
   audit:
